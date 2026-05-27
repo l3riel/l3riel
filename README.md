@@ -4,34 +4,8 @@
  **`Focus on Back-end`**
 
 <p align="left">
-    <a href="https://www.instagram.com/gabrielarthursiqueira/">
-        <img 
-            alt="Instagram" 
-            title="insta" 
-            src="https://custom-icon-badges.demolab.com/badge/insta-black.svg?logo=insta&logoSource=feather"
-        />
-    </a>
-    <a href="https://github.com/repos">
-        <img 
-            alt="Repositórios" 
-            title="Repositórios" 
-            src="https://custom-icon-badges.demolab.com/badge/Repo-black.svg?logo=repo"
-        />
-    </a> 
-    <a href="">
-        <img 
-            alt="email" 
-            title="l3rieldev@gmail.com" 
-            src="https://custom-icon-badges.demolab.com/badge/Mail-black.svg?logo=mail"
-        />
-    </a> 
-    <a href="www.linkedin.com/in/gabriel-arthur-0378bb379">
-        <img 
-            alt="LinkedIn" 
-            title="LinkedIn" 
-            src="https://custom-icon-badges.demolab.com/badge/Linkedim-black.svg?logo=Linke&logoSource=feather&logoColor=white"
-            />
-    </a>
+  <a href="https://www.instagram.com/gabrielarthursiqueira/"><img alt="Instagram" title="insta" src="https://custom-icon-badges.demolab.com/badge/insta-black.svg?logo=insta&logoSource=feather" /></a><a href="https://github.com/repos"><img alt="Repositórios" title="Repositórios" src="https://custom-icon-badges.demolab.com/badge/Repo-black.svg?logo=repo" /></a><a href="mailto:l3rieldev@gmail.com"><img alt="email" title="l3rieldev@gmail.com" src="https://custom-icon-badges.demolab.com/badge/Mail-black.svg?logo=mail" /></a><a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img alt="LinkedIn" title="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/Linkedim-black.svg?logo=Linke&logoSource=feather&logoColor=white" /></a>
+</p>
     
 ---
 <img 
