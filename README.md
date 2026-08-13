@@ -1,6 +1,6 @@
 ## 🧟 Gabriel Arthur
 
- **`Computer Science Student 3/8 `**  
+ **`Computer Science Student 4/8 `**  
  **`Focus on Back-end`**
 
 <p align="left">
