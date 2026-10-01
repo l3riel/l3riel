@@ -1,19 +1,13 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end. Automação, IA e produtos que saem do papel.">
+</p>
 
-# Gabriel Arthur
-
-**Estudante de Ciência da Computação (4/8) · Foco em Back-end**
-<br>
-Automação, IA e produtos que saem do papel.
-
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:l3rieldev@gmail.com"><img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.instagram.com/gabrielarthursiqueira/"><img src="./assets/instagram.svg" alt="Instagram"></a>
   <a href="https://github.com/l3riel?tab=repositories"><img src="./assets/repositorios.svg" alt="Repositórios"></a>
 </p>
-
-</div>
 
 ---
 
