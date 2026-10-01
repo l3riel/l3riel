@@ -1,77 +1,81 @@
-## 🧟 Gabriel Arthur
+<div align="center">
 
- **`Computer Science Student 4/8 `**  
- **`Focus on Back-end`**
+# Gabriel Arthur
 
-<p align="left">
-  <a href="https://www.instagram.com/gabrielarthursiqueira/"><img alt="Instagram" title="insta" src="https://custom-icon-badges.demolab.com/badge/insta-black.svg?logo=insta&logoSource=feather" /></a><a href="https://github.com/repos"><img alt="Repositórios" title="Repositórios" src="https://custom-icon-badges.demolab.com/badge/Repo-black.svg?logo=repo" /></a><a href="mailto:l3rieldev@gmail.com"><img alt="email" title="l3rieldev@gmail.com" src="https://custom-icon-badges.demolab.com/badge/Mail-black.svg?logo=mail" /></a><a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img alt="LinkedIn" title="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/Linkedim-black.svg?logo=Linke&logoSource=feather&logoColor=white" /></a>
+**Estudante de Ciência da Computação (4/8) · Foco em Back-end**
+<br>
+Automação, IA e produtos que saem do papel.
+
+<p>
+  <a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:l3rieldev@gmail.com"><img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.instagram.com/gabrielarthursiqueira/"><img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://github.com/l3riel?tab=repositories"><img src="https://img.shields.io/badge/Repositórios-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"></a>
 </p>
-    
----
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Java"
-    title="Java" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-plain.svg" 
-/>
-<img 
-    align="left" 
-    alt="PHP" 
-    title="PHP"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Laravel" 
-    title="Laravel"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
 
-<br/>
-<br/>
+</div>
+
+---
+
+## Sobre mim
+
+Sou estudante de **Ciência da Computação** na **Univértix**, vice-presidente da liga acadêmica do curso, e quero trabalhar com **back-end**: APIs, banco de dados e integrações.
+
+Além da faculdade, trabalho com **GoHighLevel e automação**: workflows, CRM, agentes de IA no WhatsApp, snapshots e dashboards para clientes. Foi daí que veio o interesse em **webhooks, APIs e n8n**, que hoje é o que mais estudo.
+
+No tempo livre eu construo meus próprios projetos, sempre com commits pequenos e organizados.
+
+## O que estou construindo
+
+| Projeto | O que é | Stack |
+| --- | --- | --- |
+| **Mukirana** | App pessoal de controle financeiro: contas, cartões, faturas e parcelas. Dinheiro guardado em centavos (`Int`), nunca `Float`. | Next.js · TypeScript · Prisma · Postgres · Vercel |
+| **Tesourinha Nervosa** | Gera cortes verticais com legenda a partir de lives da Twitch e do YouTube. Roda local, sem GPU. | Python · JavaScript |
+| **Poor Photoshop** | Fábrica de carrosséis de Instagram: do tema à copy e aos PNGs 1080x1350, com várias marcas. | Python · HTML |
+
+Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https://github.com/l3riel/MaratonaDevDojo) (Java), [algoritimos-javascript](https://github.com/l3riel/algoritimos-javascript) e [programa-o-WEB-II-aulas](https://github.com/l3riel/programa-o-WEB-II-aulas) (PHP).
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,ts,js,python,dart,php,html,css&theme=dark&perline=8" alt="Java, TypeScript, JavaScript, Python, Dart, PHP, HTML, CSS"><br>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,laravel,flutter,vite,prisma,postgres&theme=dark&perline=8" alt="Next.js, React, Node.js, Laravel, Flutter, Vite, Prisma, Postgres"><br>
+  <img src="https://skillicons.dev/icons?i=git,github,vercel,linux,fedora,bash,vscode,obsidian&theme=dark&perline=8" alt="Git, GitHub, Vercel, Linux, Fedora, Bash, VS Code, Obsidian">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/GoHighLevel-111827?style=for-the-badge" alt="GoHighLevel">
+  <img src="https://img.shields.io/badge/n8n-111827?style=for-the-badge&logo=n8n&logoColor=EA4B71" alt="n8n">
+  <img src="https://img.shields.io/badge/Webhooks_e_APIs-111827?style=for-the-badge" alt="Webhooks e APIs">
+  <img src="https://img.shields.io/badge/Claude_Code-111827?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code">
+</p>
+
+## Como eu trabalho
+
+- **Commits atômicos.** Um assunto por commit, mensagem em Conventional Commits, projeto sempre funcionando.
+- **Segundo cérebro no Obsidian.** Tudo que funciona, as armadilhas e as decisões ficam anotados, e as IAs que uso leem essas notas antes de me ajudar.
+- **IA como parceira, não como atalho.** Nos estudos eu peço guia passo a passo para entender o raciocínio, não código pronto.
+- **Cuidado com dinheiro e segredos.** Valores em centavos, variáveis de ambiente fora do git, migrações em duas etapas.
+
+## Estudando agora
+
+- Java (orientação a objetos, exceções, `record`) e Dart/Flutter na faculdade
+- Back-end: APIs, webhooks e integrações com n8n
+- Banco de dados e Postgres
+
+<div align="center">
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=l3riel&theme=dark&hide_border=true&background=0D1117" alt="Sequência de dias commitando">
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=l3riel&layout=compact&theme=dark&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas">
+
+<br><br>
+
+Vamos conversar sobre back-end, automação ou IA? Me chama no
+<a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379">LinkedIn</a> ou por <a href="mailto:l3rieldev@gmail.com">e-mail</a>.
+
+</div>
