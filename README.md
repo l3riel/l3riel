@@ -9,8 +9,8 @@ Automação, IA e produtos que saem do papel.
 <p>
   <a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:l3rieldev@gmail.com"><img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.instagram.com/gabrielarthursiqueira/"><img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://github.com/l3riel?tab=repositories"><img src="https://img.shields.io/badge/Repositórios-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"></a>
+  <a href="https://www.instagram.com/gabrielarthursiqueira/"><img src="./assets/instagram.svg" alt="Instagram"></a>
+  <a href="https://github.com/l3riel?tab=repositories"><img src="./assets/repositorios.svg" alt="Repositórios"></a>
 </p>
 
 </div>
@@ -40,14 +40,14 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,ts,js,python,dart,php,html,css&theme=dark&perline=8" alt="Java, TypeScript, JavaScript, Python, Dart, PHP, HTML, CSS"><br>
   <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,laravel,flutter,vite,prisma,postgres&theme=dark&perline=8" alt="Next.js, React, Node.js, Laravel, Flutter, Vite, Prisma, Postgres"><br>
-  <img src="https://skillicons.dev/icons?i=git,github,vercel,linux,fedora,bash,vscode,obsidian&theme=dark&perline=8" alt="Git, GitHub, Vercel, Linux, Fedora, Bash, VS Code, Obsidian">
+  <img src="https://skillicons.dev/icons?i=git,github,vercel,linux,bash,vscode,obsidian&theme=dark&perline=8" alt="Git, GitHub, Vercel, Linux, Fedora, Bash, VS Code, Obsidian">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GoHighLevel-111827?style=for-the-badge" alt="GoHighLevel">
-  <img src="https://img.shields.io/badge/n8n-111827?style=for-the-badge&logo=n8n&logoColor=EA4B71" alt="n8n">
-  <img src="https://img.shields.io/badge/Webhooks_e_APIs-111827?style=for-the-badge" alt="Webhooks e APIs">
-  <img src="https://img.shields.io/badge/Claude_Code-111827?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code">
+  <img src="./assets/gohighlevel.svg" alt="GoHighLevel">
+  <img src="./assets/n8n.svg" alt="n8n">
+  <img src="./assets/webhooks-apis.svg" alt="Webhooks e APIs">
+  <img src="./assets/claude-code.svg" alt="Claude Code">
 </p>
 
 ## Como eu trabalho
