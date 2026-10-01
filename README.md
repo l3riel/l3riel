@@ -40,7 +40,7 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,ts,js,python,dart,php,html,css&theme=dark&perline=8" alt="Java, TypeScript, JavaScript, Python, Dart, PHP, HTML, CSS"><br>
   <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,laravel,flutter,vite,prisma,postgres&theme=dark&perline=8" alt="Next.js, React, Node.js, Laravel, Flutter, Vite, Prisma, Postgres"><br>
-  <img src="https://skillicons.dev/icons?i=git,github,vercel,linux,bash,vscode,obsidian&theme=dark&perline=8" alt="Git, GitHub, Vercel, Linux, Fedora, Bash, VS Code, Obsidian">
+  <img src="https://skillicons.dev/icons?i=git,github,vercel,linux,bash,vscode,obsidian&theme=dark&perline=8" alt="Git, GitHub, Vercel, Linux, Bash, VS Code, Obsidian">
 </p>
 
 <p align="center">
