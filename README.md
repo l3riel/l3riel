@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg?v=6" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end. Automação, IA e produtos que saem do papel.">
+  <img src="./assets/banner.svg?v=7" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end.">
 </p>
 
 <p align="center">
@@ -13,21 +13,7 @@
 
 ## Sobre mim
 
-Sou estudante de **Ciência da Computação** na **Univértix**, vice-presidente da liga acadêmica do curso, e quero trabalhar com **back-end**: APIs, banco de dados e integrações.
-
-Além da faculdade, trabalho com **GoHighLevel e automação**: workflows, CRM, agentes de IA no WhatsApp, snapshots e dashboards para clientes. Foi daí que veio o interesse em **webhooks, APIs e n8n**, que hoje é o que mais estudo.
-
-No tempo livre eu construo meus próprios projetos, sempre com commits pequenos e organizados.
-
-## O que estou construindo
-
-| Projeto | O que é | Stack |
-| --- | --- | --- |
-| **Mukirana** | App pessoal de controle financeiro: contas, cartões, faturas e parcelas. Dinheiro guardado em centavos (`Int`), nunca `Float`. | Next.js · TypeScript · Prisma · Postgres · Vercel |
-| **Tesourinha Nervosa** | Gera cortes verticais com legenda a partir de lives da Twitch e do YouTube. Roda local, sem GPU. | Python · JavaScript |
-| **Poor Photoshop** | Fábrica de carrosséis de Instagram: do tema à copy e aos PNGs 1080x1350, com várias marcas. | Python · HTML |
-
-Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https://github.com/l3riel/MaratonaDevDojo) (Java), [algoritimos-javascript](https://github.com/l3riel/algoritimos-javascript) e [programa-o-WEB-II-aulas](https://github.com/l3riel/programa-o-WEB-II-aulas) (PHP).
+Estudante de **Ciência da Computação** na **Univértix** (4º de 8 períodos), com foco em **back-end**.
 
 ## Stack
 
@@ -37,33 +23,22 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
   <img src="https://skillicons.dev/icons?i=git,github,vercel,linux,bash,vscode,obsidian&theme=dark&perline=8" alt="Git, GitHub, Vercel, Linux, Bash, VS Code, Obsidian">
 </p>
 
-<p align="center">
-  <img src="./assets/gohighlevel.svg" alt="GoHighLevel">
-  <img src="./assets/n8n.svg" alt="n8n">
-  <img src="./assets/webhooks-apis.svg" alt="Webhooks e APIs">
-  <img src="./assets/claude-code.svg" alt="Claude Code">
-</p>
-
-## Como eu trabalho
-
-- **Commits atômicos.** Um assunto por commit, mensagem em Conventional Commits, projeto sempre funcionando.
-- **Segundo cérebro no Obsidian.** Tudo que funciona, as armadilhas e as decisões ficam anotados, e as IAs que uso leem essas notas antes de me ajudar.
-- **IA como parceira, não como atalho.** Nos estudos eu peço guia passo a passo para entender o raciocínio, não código pronto.
-- **Cuidado com dinheiro e segredos.** Valores em centavos, variáveis de ambiente fora do git, migrações em duas etapas.
-
 ## Estudando agora
 
-- Java (orientação a objetos, exceções, `record`) e Dart/Flutter na faculdade
-- Back-end: APIs, webhooks e integrações com n8n
-- Banco de dados e Postgres
+- Java: orientação a objetos e exceções
+- Dart e Flutter
+- Back-end: APIs, banco de dados (Postgres) e n8n
+
+## Projetos
+
+Nenhum no momento. Os próximos entram aqui.
 
 <p align="center">
-  <img src="./assets/painel.svg?v=5" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
+  <img src="./assets/painel.svg?v=6" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
 </p>
 
 <div align="center">
 
-Vamos conversar sobre back-end, automação ou IA? Me chama no
-<a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379">LinkedIn</a> ou por <a href="mailto:l3rieldev@gmail.com">e-mail</a>.
+<a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379">LinkedIn</a> · <a href="mailto:l3rieldev@gmail.com">e-mail</a>
 
 </div>
