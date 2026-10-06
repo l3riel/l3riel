@@ -11,7 +11,7 @@
 
 ---
 
-<img align="right" src="./assets/moldura.svg?v=2" width="330" alt="Illustration of a swordsman leaping against a blue wave, framed by animated waves">
+<img align="right" src="./assets/moldura-tall.svg" width="330" alt="Illustration of a swordsman leaping against a blue wave, framed by animated waves">
 
 ### About
 
