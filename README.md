@@ -11,6 +11,8 @@
 
 ---
 
+<img align="right" src="./assets/musashi.webp" width="300" alt="Illustration of a swordsman leaping against a blue wave">
+
 ## About
 
 I'm a Computer Science student at **Univértix** (4th of 8 semesters), vice-president of the **Liga Cadena**, the course's academic league, and I'm aiming at a **back-end** career. Right now I'm in an internship where I work heavily with **AI**: I manage AI agents day to day and build projects around them, learning how to get reliable results out of them instead of just chatting with them.
