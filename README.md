@@ -58,7 +58,7 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
 - Banco de dados e Postgres
 
 <p align="center">
-  <img src="./assets/painel.svg?v=4" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
+  <img src="./assets/painel.svg?v=5" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
 </p>
 
 <div align="center">
