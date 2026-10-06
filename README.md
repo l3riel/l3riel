@@ -58,23 +58,10 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
 - Banco de dados e Postgres
 
 <p align="center">
-  <img src="./assets/tela-1.gif" width="380" alt="">
-  <img src="./assets/tela-2.gif" width="380" alt=""><br>
-  <img src="./assets/tela-3.gif" width="380" alt="">
-  <img src="./assets/tela-4.gif" width="380" alt="">
+  <img src="./assets/painel.svg?v=1" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
 </p>
 
 <div align="center">
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=l3riel&theme=dark&hide_border=true&background=0A1630&stroke=1E3A6E&ring=3B82F6&fire=60A5FA&currStreakLabel=60A5FA&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=BFDBFE&dates=9FB3D1" alt="Sequência de dias commitando">
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=l3riel&layout=compact&theme=dark&hide_border=true&bg_color=0A1630&title_color=60A5FA&text_color=E2ECFB" alt="Linguagens mais usadas">
-
-<br><br>
 
 Vamos conversar sobre back-end, automação ou IA? Me chama no
 <a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379">LinkedIn</a> ou por <a href="mailto:l3rieldev@gmail.com">e-mail</a>.
