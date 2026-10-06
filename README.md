@@ -58,10 +58,10 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
 - Banco de dados e Postgres
 
 <p align="center">
-  <img src="./assets/phone-1.gif" width="190" alt="">
-  <img src="./assets/phone-2.gif" width="190" alt="">
-  <img src="./assets/phone-3.gif" width="190" alt="">
-  <img src="./assets/phone-4.gif" width="190" alt="">
+  <img src="./assets/tela-1.gif" width="380" alt="">
+  <img src="./assets/tela-2.gif" width="380" alt=""><br>
+  <img src="./assets/tela-3.gif" width="380" alt="">
+  <img src="./assets/tela-4.gif" width="380" alt="">
 </p>
 
 <div align="center">
