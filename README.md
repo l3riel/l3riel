@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg?v=3" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end. Automação, IA e produtos que saem do papel.">
+  <img src="./assets/banner.svg?v=4" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end. Automação, IA e produtos que saem do papel.">
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@ Esses três são privados. Os estudos abertos estão em [MaratonaDevDojo](https:
 - Banco de dados e Postgres
 
 <p align="center">
-  <img src="./assets/painel.svg?v=2" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
+  <img src="./assets/painel.svg?v=3" width="100%" alt="Painel com GIFs do Cristiano Ronaldo, sequência de commits e linguagens mais usadas">
 </p>
 
 <div align="center">
