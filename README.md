@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg?v=7" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end.">
+  <img src="./assets/banner.svg?v=8" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end.">
 </p>
 
 <p align="center">
