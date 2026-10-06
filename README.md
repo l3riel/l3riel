@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end. Automação, IA e produtos que saem do papel.">
+  <img src="./assets/banner.svg?v=2" width="100%" alt="Gabriel Arthur — Estudante de Ciência da Computação (4/8), foco em back-end. Automação, IA e produtos que saem do papel.">
 </p>
 
 <p align="center">
