@@ -4,7 +4,7 @@
 <img align="top" src="./assets/p-about.svg?v=4" width="100%" alt="About: I'm a Computer Science student at Univértix (4th of 8 semesters), vice-president of the Academic League (CACIC), aiming at a back-end career and currently in an internship at AVA Partners, working with GoHighLevel and heavily with AI: managing AI agents and building projects around them."><br>
 <img align="top" src="./assets/p-profile-c.svg" width="100%" alt="Profile: Gabriel Arthur, back-end focus, AI internship at AVA Partners with GoHighLevel, Computer Science at Univértix, 4th of 8 semesters, vice-president of the Academic League (CACIC), Minas Gerais, Brazil."><br>
 <img align="top" src="./assets/p-now.svg?v=2" width="100%" alt="Quests: AI internship at AVA Partners with GoHighLevel, Second Brain (an Obsidian knowledge base read and maintained by AI, with every prompt logged to a private GitHub repository and distilled into notes), and studying Java, APIs, PostgreSQL and n8n."><br>
-<img align="top" src="./assets/p-inventory.svg?v=3" width="100%" alt="Stack: Java, Python, TypeScript, Next.js, Node.js, Obsidian and GoHighLevel."><br>
+<img align="top" src="./assets/p-inventory-b.svg" width="100%" alt="Stack: Java, Python, TypeScript, Next.js, Node.js, Obsidian, GoHighLevel, Claude and Antigravity."><br>
 <img align="top" src="./assets/p-replays-d.svg" width="100%" alt="The Goat: four football GIFs."><br>
 <img align="top" src="./assets/p-stats.svg" width="100%" alt="Stats: commit streak, total contributions and most used languages, updated daily."><br>
 <img align="top" src="./assets/p-game-b.svg" width="100%" alt="Title hunt: a blue pixel fox collecting three trophies in a maze."><br>
