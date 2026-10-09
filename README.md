@@ -4,7 +4,7 @@
 <img align="top" src="./assets/p-about.svg?v=3" width="100%" alt="About: I'm a Computer Science student at Univértix (4th of 8 semesters), vice-president of the Academic League (CACIC), aiming at a back-end career and currently in an internship where I work heavily with AI, managing AI agents and building projects around them."><br>
 <img align="top" src="./assets/p-profile.svg?v=3" width="100%" alt="Profile: Gabriel Arthur, back-end focus, AI internship, Computer Science at Univértix, 4th of 8 semesters, vice-president of the Academic League (CACIC), Minas Gerais, Brazil."><br>
 <img align="top" src="./assets/p-now.svg?v=1" width="100%" alt="Quests: AI internship, Second Brain (an Obsidian knowledge base read and maintained by AI, with every prompt logged to a private GitHub repository and distilled into notes), and studying Java, APIs, PostgreSQL and n8n."><br>
-<img align="top" src="./assets/p-inventory.svg?v=1" width="100%" alt="Stack: Java, Python, JavaScript, TypeScript, PHP, HTML, CSS, Laravel, Next.js, Node.js, Prisma, PostgreSQL, Git, GitHub, Vercel, VS Code and Obsidian."><br>
+<img align="top" src="./assets/p-inventory.svg?v=2" width="100%" alt="Stack: Java, Python, TypeScript, Next.js, Node.js and Obsidian."><br>
 <img align="top" src="./assets/p-replays.svg?v=1" width="100%" alt="Replays: four GIFs, commit streak and most used languages."><br>
 <img align="top" src="./assets/p-game.svg?v=1" width="100%" alt="Title hunt: a blue pixel fox collecting three trophies in a maze."><br>
 <img align="top" src="./assets/p-footer.svg?v=2" width="100%" alt="Let's talk? LinkedIn and email.">
