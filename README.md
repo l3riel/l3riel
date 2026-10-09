@@ -5,7 +5,8 @@
 <img align="top" src="./assets/p-profile-b.svg" width="100%" alt="Profile: Gabriel Arthur, back-end focus, AI internship, Computer Science at Univértix, 4th of 8 semesters, vice-president of the Academic League (CACIC), Minas Gerais, Brazil."><br>
 <img align="top" src="./assets/p-now.svg?v=1" width="100%" alt="Quests: AI internship, Second Brain (an Obsidian knowledge base read and maintained by AI, with every prompt logged to a private GitHub repository and distilled into notes), and studying Java, APIs, PostgreSQL and n8n."><br>
 <img align="top" src="./assets/p-inventory.svg?v=2" width="100%" alt="Stack: Java, Python, TypeScript, Next.js, Node.js and Obsidian."><br>
-<img align="top" src="./assets/p-replays-b.svg" width="100%" alt="Replays: four GIFs, commit streak and most used languages."><br>
+<img align="top" src="./assets/p-replays-c.svg" width="100%" alt="Replays: four football GIFs."><br>
+<img align="top" src="./assets/p-stats.svg" width="100%" alt="Stats: commit streak, total contributions and most used languages, updated daily."><br>
 <img align="top" src="./assets/p-game-b.svg" width="100%" alt="Title hunt: a blue pixel fox collecting three trophies in a maze."><br>
 <img align="top" src="./assets/p-footer.svg?v=2" width="100%" alt="Let's talk? LinkedIn and email.">
 </p>
