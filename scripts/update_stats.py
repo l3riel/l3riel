@@ -190,15 +190,15 @@ LANG_COLORS = [PALE, LBLUE, BLUE, DEEP, GOLD]
 
 
 def build(cur, total, best, langs, today):
-    h = 178
+    h = 196
     b = [starfield(W, h + 48, 14, 21), window(30, 24, 940, h, "STATS")]
     y = 24 + 34
-    cols = [(64, "STREAK", str(cur), "DAYS" if cur != 1 else "DAY"), (300, "TOTAL", str(total), "COMMITS+"), (500, "BEST", str(best), "DAYS")]
+    cols = [(64, "STREAK", str(cur), "DAYS" if cur != 1 else "DAY"), (300, "TOTAL", str(total), "ALL TIME"), (500, "BEST", str(best), "DAYS")]
     for x, label, num, unit in cols:
         b.append(ptext(label, x, y, 3, GOLD))
         b.append(ptext(num, x, y + 40, 6, WHITE))
         b.append(ptext(unit, x, y + 40 + 7 * 6 + 12, 2, LBLUE))
-    lx = 690
+    lx = 662
     b.append(ptext("LANGS", lx, y, 3, GOLD))
     tot = sum(v for _, v in langs) or 1
     x, bw = lx, 240
@@ -208,10 +208,11 @@ def build(cur, total, best, langs, today):
         x += w_
     for k, ((n, v), c) in enumerate(zip(langs, LANG_COLORS)):
         yy = y + 66 + (k // 2) * 22
-        xx = lx + (k % 2) * 122
+        xx = lx + (k % 2) * 136
         b.append(f'<rect x="{xx}" y="{yy}" width="10" height="10" fill="{c}"/>')
         b.append(f'<text x="{xx + 18}" y="{yy + 10}" style="{MONO};font-size:13px" fill="{WHITE}">{esc(n)} {v:.0f}%</text>')
-    b.append(ptext(f"UPDATED {today.isoformat()} UTC", 64, 24 + h - 26, 1, GREY))
+    txt = f"UPDATED {today.isoformat()} UTC"
+    b.append(ptext(txt, 30 + 940 - 28 - tw(txt, 1), 24 + h - 28, 1, GREY))
     return svg(W, h + 48, "".join(b), TWINKLE, f"Stats: {cur} day commit streak, {total} total contributions, best streak {best} days, most used languages")
 
 
