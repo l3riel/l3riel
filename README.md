@@ -1,18 +1,14 @@
 <p align="center">
-<img align="top" src="./assets/p-header.svg?v=2" width="100%" alt="Gabriel Arthur — Computer Science student, back-end focus, working with AI."><br>
-<a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img align="top" src="./assets/p-btn-1.svg?v=2" width="25%" alt="LinkedIn"></a><a href="mailto:l3rieldev@gmail.com"><img align="top" src="./assets/p-btn-2.svg?v=1" width="25%" alt="Email"></a><a href="https://www.instagram.com/l3riel.dev/"><img align="top" src="./assets/p-btn-3.svg?v=1" width="25%" alt="Instagram"></a><a href="https://github.com/l3riel?tab=repositories"><img align="top" src="./assets/p-btn-4.svg?v=1" width="25%" alt="Repositories"></a><br>
-<img align="top" src="./assets/p-about.svg?v=4" width="100%" alt="About: I'm a Computer Science student at Univértix (4th of 8 semesters), vice-president of the Academic League (CACIC), aiming at a back-end career and currently in an internship at AVA Partners, working with GoHighLevel and heavily with AI: managing AI agents and building projects around them."><br>
-<img align="top" src="./assets/p-profile-c.svg" width="100%" alt="Profile: Gabriel Arthur, back-end focus, AI internship at AVA Partners with GoHighLevel, Computer Science at Univértix, 4th of 8 semesters, vice-president of the Academic League (CACIC), Minas Gerais, Brazil."><br>
-<img align="top" src="./assets/p-now.svg?v=2" width="100%" alt="Quests: AI internship at AVA Partners with GoHighLevel, Second Brain (an Obsidian knowledge base read and maintained by AI, with every prompt logged to a private GitHub repository and distilled into notes), and studying Java, APIs, PostgreSQL and n8n."><br>
-<img align="top" src="./assets/p-inventory-b.svg" width="100%" alt="Stack: Java, Python, TypeScript, Next.js, Node.js, Obsidian, GoHighLevel, Claude and Antigravity."><br>
-<img align="top" src="./assets/p-replays-d.svg" width="100%" alt="The Goat: four football GIFs."><br>
-<img align="top" src="./assets/p-stats.svg" width="100%" alt="Stats: commit streak, total contributions and most used languages, updated daily."><br>
-<img align="top" src="./assets/p-game-b.svg" width="100%" alt="Title hunt: a blue pixel fox collecting three trophies in a maze."><br>
-<img align="top" src="./assets/p-footer.svg?v=2" width="100%" alt="Let's talk? LinkedIn and email.">
+<img align="top" src="./assets/hero.svg" width="100%" alt="Gabriel Arthur — back-end, AI and automation. Header with a classical painting of two men playing chess while an angel watches."><br>
+<img align="top" src="./assets/about.svg" width="100%" alt="About: Computer Science student at Univértix (4th of 8 semesters), vice-president of the Academic League (CACIC), AI internship at AVA Partners with GoHighLevel, studying Java, APIs, PostgreSQL and n8n."><br>
+<img align="top" src="./assets/stack.svg" width="100%" alt="Stack: Java, Python, TypeScript, Node.js, Next.js, PostgreSQL, n8n, GoHighLevel, Claude, Obsidian and Git."><br>
+<img align="top" src="./assets/goat.svg" width="100%" alt="The Goat: four Cristiano Ronaldo GIFs."><br>
+<img align="top" src="./assets/stats.svg" width="100%" alt="Stats: commit streak, total contributions and most used languages, updated daily.">
 </p>
 
-<div align="center">
-
-<a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379">LinkedIn</a> · <a href="mailto:l3rieldev@gmail.com">e-mail</a>
-
-</div>
+<p align="center">
+<a href="https://github.com/l3riel?tab=repositories"><img src="./assets/btn-github.svg" height="42" alt="Repositories"></a>
+<a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img src="./assets/btn-linkedin.svg" height="42" alt="LinkedIn"></a>
+<a href="https://www.instagram.com/l3riel.dev/"><img src="./assets/btn-instagram.svg" height="42" alt="Instagram"></a>
+<a href="mailto:l3rieldev@gmail.com"><img src="./assets/btn-email.svg" height="42" alt="Email"></a>
+</p>
