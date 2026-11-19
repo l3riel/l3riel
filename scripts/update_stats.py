@@ -1,4 +1,4 @@
-"""Atualiza assets/p-stats.svg com os números reais do GitHub (rodado todo dia pela Action).
+"""Atualiza assets/stats.svg com os números reais do GitHub (rodado todo dia pela Action).
 Streak = dias seguidos (UTC) com pelo menos 1 contribuição, como no gráfico do perfil."""
 import datetime, json, math, os, random, subprocess, sys, urllib.request
 import xml.dom.minidom as m
@@ -183,37 +183,50 @@ def languages():
         for lang, n in api(r["languages_url"]).items():
             tot[lang] = tot.get(lang, 0) + n
     s = sum(tot.values()) or 1
-    return [(k.upper(), v * 100 / s) for k, v in sorted(tot.items(), key=lambda kv: -kv[1])[:5]]
+    return [(k, v * 100 / s) for k, v in sorted(tot.items(), key=lambda kv: -kv[1])[:5]]
 
 
-LANG_COLORS = [PALE, LBLUE, BLUE, DEEP, GOLD]
+LANG_COLORS = ["#E8E2D4", "#C9A45C", "#4F7BC4", "#A8423A", "#5C6370"]
+SANS = "font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
+CBG, CLINE, CTXT, CMUTED, CDIM = "#0B0D12", "#20252F", "#F2F3F5", "#9AA1AD", "#5C6370"
 
 
 def build(cur, total, best, langs, today):
-    h = 196
-    b = [starfield(W, h + 48, 14, 21), window(30, 24, 940, h, "STATS")]
-    y = 24 + 34
-    cols = [(64, "STREAK", str(cur), "DAYS" if cur != 1 else "DAY"), (300, "TOTAL", str(total), "ALL TIME"), (500, "BEST", str(best), "DAYS")]
+    """Card no visual clean do README (mesmas cores e manchas desfocadas dos outros cards)."""
+    w, h, gap = 900, 170, 14
+    b = [f'<defs><clipPath id="c"><rect width="{w}" height="{h}" rx="18"/></clipPath>'
+         '<filter id="f" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter></defs>',
+         f'<g clip-path="url(#c)"><rect width="{w}" height="{h}" fill="{CBG}"/><g filter="url(#f)">'
+         f'<ellipse cx="120" cy="150" rx="200" ry="80" fill="#8A6A2A" opacity=".35"/>'
+         f'<ellipse cx="780" cy="20" rx="200" ry="80" fill="#22457E" opacity=".4"/></g></g>',
+         f'<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="18" fill="none" stroke="{CLINE}"/>']
+    def lab(s, x, y):
+        return f'<text x="{x}" y="{y}" style="{SANS};font-size:10.5px;font-weight:500;letter-spacing:3px" fill="{CDIM}">{esc(s)}</text>'
+    cols = [(32, "STREAK", cur, "day" if cur == 1 else "days"), (190, "TOTAL", total, "contributions"), (370, "BEST", best, "days")]
     for x, label, num, unit in cols:
-        b.append(ptext(label, x, y, 3, GOLD))
-        b.append(ptext(num, x, y + 40, 6, WHITE))
-        b.append(ptext(unit, x, y + 40 + 7 * 6 + 12, 2, LBLUE))
-    lx = 662
-    b.append(ptext("LANGS", lx, y, 3, GOLD))
+        b.append(lab(label, x, 46))
+        b.append(f'<text x="{x}" y="100" style="{SANS};font-size:40px;font-weight:600;letter-spacing:-1px" fill="{CTXT}">{num}</text>')
+        b.append(f'<text x="{x}" y="124" style="{SANS};font-size:12.5px" fill="{CMUTED}">{unit}</text>')
+    b.append(f'<rect x="520" y="28" width="1" height="{h - 56}" fill="{CLINE}"/>')
+    lx, bw = 552, 316
+    b.append(lab("LANGUAGES", lx, 46))
     tot = sum(v for _, v in langs) or 1
-    x, bw = lx, 240
+    x = lx
+    b.append(f'<clipPath id="bar"><rect x="{lx}" y="64" width="{bw}" height="8" rx="4"/></clipPath><g clip-path="url(#bar)">')
     for (n, v), c in zip(langs, LANG_COLORS):
-        w_ = max(4, round(bw * v / tot / 4) * 4)
-        b.append(f'<rect x="{x}" y="{y + 38}" width="{w_}" height="12" fill="{c}"/>')
+        w_ = bw * v / tot
+        b.append(f'<rect x="{x:.1f}" y="64" width="{w_ + .5:.1f}" height="8" fill="{c}"/>')
         x += w_
+    b.append('</g>')
     for k, ((n, v), c) in enumerate(zip(langs, LANG_COLORS)):
-        yy = y + 66 + (k // 2) * 22
-        xx = lx + (k % 2) * 136
-        b.append(f'<rect x="{xx}" y="{yy}" width="10" height="10" fill="{c}"/>')
-        b.append(f'<text x="{xx + 18}" y="{yy + 10}" style="{MONO};font-size:13px" fill="{WHITE}">{esc(n)} {v:.0f}%</text>')
-    txt = f"UPDATED {today.isoformat()} UTC"
-    b.append(ptext(txt, 30 + 940 - 28 - tw(txt, 1), 24 + h - 28, 1, GREY))
-    return svg(W, h + 48, "".join(b), TWINKLE, f"Stats: {cur} day commit streak, {total} total contributions, best streak {best} days, most used languages")
+        yy = 96 + (k // 2) * 22
+        xx = lx + (k % 2) * 160
+        b.append(f'<circle cx="{xx + 4}" cy="{yy - 4}" r="4" fill="{c}"/>')
+        b.append(f'<text x="{xx + 16}" y="{yy}" style="{SANS};font-size:12.5px" fill="{CMUTED}">{esc(n)} <tspan fill="{CDIM}">{v:.0f}%</tspan></text>')
+    b.append(f'<text x="{w - 32}" y="{h - 22}" text-anchor="end" style="{SANS};font-size:10px" fill="{CDIM}">updated {today.isoformat()} UTC</text>')
+    title = f"Stats: {cur} day commit streak, {total} total contributions, best streak {best} days, most used languages"
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h + gap}" viewBox="0 0 {w} {h + gap}" role="img" aria-label="{esc(title)}">'
+            f'<title>{esc(title)}</title>{"".join(b)}</svg>')
 
 
 def main():
@@ -225,7 +238,7 @@ def main():
         print("falha ao consultar o GitHub, arquivo mantido:", e)
         return 0
     out = build(cur, total, best, langs, today)
-    p = os.path.join(ASSETS, "p-stats.svg")
+    p = os.path.join(ASSETS, "stats.svg")
     old = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
     m.parseString(out)
     if out != old:
