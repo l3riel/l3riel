@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/l3riel?tab=repositories"><img src="./assets/btn-github.svg" height="42" alt="Repositories"></a>
+<a href="https://l3riel.dev"><img src="./assets/btn-portfolio.svg" height="42" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/gabriel-arthur-0378bb379"><img src="./assets/btn-linkedin.svg" height="42" alt="LinkedIn"></a>
 <a href="https://www.instagram.com/l3riel.dev/"><img src="./assets/btn-instagram.svg" height="42" alt="Instagram"></a>
 <a href="mailto:l3rieldev@gmail.com"><img src="./assets/btn-email.svg" height="42" alt="Email"></a>
